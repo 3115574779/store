@@ -1,0 +1,439 @@
+/*总体样式*/
+
+.all {
+	width: 100%;
+	margin-bottom: 10.0rem;
+}
+
+
+/*顶部样式*/
+
+.top {
+	width: 100%;
+	height: 4.0rem;
+	background: #2f2f33;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+}
+
+.tleft_arrow i,
+.tright_arrow i {
+	text-align: center;
+	font-size: 2.4rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.tleft_arrow,
+.tright_arrow {
+	width: 5.6rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2.0rem;
+}
+
+.tleft_content {
+	font-size: 2.4rem;
+	flex: 1;
+	text-align: center;
+}
+
+
+/*header部分*/
+
+header {
+	background: #1abc9c;
+	width: 100%;
+	height: 3.8rem;
+	display: flex;
+	color: #fff;
+}
+
+.hleft,
+.h_right {
+	width: 5.5rem;
+	height: 3.8rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*background:red;*/
+	font-size: 1.0rem;
+}
+
+.h_content {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.serach {
+	/*width:14.0rem;*/
+	flex: 1;
+	height: 2.8rem;
+	background: #FFF;
+	border-radius: 1.0rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	color: #666;
+	padding-left: 0.5rem;
+}
+
+.pic i {
+	width: 1.0rem;
+	display: flex;
+	justify-content: center;
+	font-size: 2.5rem;
+	margin-right: 0.5rem;
+}
+
+.location {
+	font-size: 2.0rem;
+	color: #FFF;
+}
+
+
+/*banner部分*/
+
+.banner {
+	width: 100%;
+}
+
+.banner ul li {
+	width: 100%;
+}
+
+.banner ul li img {
+	width: 100%;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.swiper-slide img{
+	width:100%;
+}
+/*first部分*/
+
+.first ul {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.first ul li {
+	/*flex:1;*/
+	width: 4.5rem;
+	height: 4.5rem;
+	border-radius: 50%;
+	background: #45d0cc;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.first ul li:nth-child(2) {
+	background: #f4bd5c;
+}
+
+.first ul li:nth-child(3) {
+	background: #70bdff;
+}
+
+.first ul li:nth-child(4) {
+	background: #f89ea8;
+}
+
+.first ul li img {
+	width: 68%;
+	/*margin:0 auto;*/
+}
+
+#words li {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-top: -0.5rem;
+	border-radius: none;
+	background: #FFF;
+}
+
+
+/*line部分*/
+
+.line {
+	width: 100%;
+	height: 1.0rem;
+	background: #efeff4;
+}
+
+
+/*推荐产品部分*/
+
+.pro {
+	width: 100%;
+}
+
+.block {
+	width: 0.5rem;
+	height: 2.5rem;
+	background: #1abc9c;
+}
+
+.title {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	height: 5.0rem;
+	/*background:pink;*/
+	font-size: 2.0rem;
+	line-height: 5.0rem;
+	padding-left: 0.5rem;
+	color: #333;
+}
+
+.tui {
+	padding-left: 1.2rem;
+}
+
+.border {
+	display: flex;
+}
+
+.border>li {
+	flex: 1;
+	border: 1px solid #ddd;
+}
+
+.border>li:first-child {
+	margin-right: 0.4rem;
+}
+
+.pro_info ul li figure {
+	width: 8.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.pro_info ul li figure img {
+	width: 100%;
+}
+
+.chan_money {
+	width: 98%;
+	margin: 0 auto;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	display: flex;
+}
+
+.chan_money li {
+	flex: 1;
+	text-align: center;
+	font-size: 1.5rem;
+	color: #f95f5c;
+	font-weight: 550;
+}
+
+.zu {
+	width: 98%;
+	height: 2.0rem;
+	margin: 0 auto;
+	display: flex;
+	margin-top: 0.8rem;
+	line-height: 2.0rem;
+}
+
+.zu li {
+	flex: 1;
+	text-align: center;
+	font-size: 1.5rem;
+	color: #57ceb6;
+	border: 1px solid #57ceb6;
+	border-radius: 0.5rem;
+}
+
+.zu li:first-child {
+	margin-right: 0.5rem;
+}
+
+.up {
+	margin-top: 2.6rem;
+}
+
+
+/*净水器部分*/
+
+.wtitle {
+	display: flex;
+	height: 5.0rem;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.wleft {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-left: 1.0rem;
+	font-size: 2.0rem;
+	line-height: 5.0rem;
+	color: #333;
+}
+
+.wright {
+	color: #333;
+	font-size: 2.0rem;
+}
+
+.drag {
+	padding-left: 0.5rem;
+	color: #333;
+	font-size: 1.5rem;
+}
+
+.shang {
+	margin-bottom: 0.8rem;
+}
+
+
+/*地区部分*/
+
+.diqu {
+	width: 100%;
+	height: 4.5rem;
+	background: #fff;
+}
+
+.diqu ul {
+	height: 4.0rem;
+	line-height: 4.0rem;
+	text-align: center;
+	display: flex;
+	background: #ffffff;
+}
+
+.diqu ul li {
+	flex: 1;
+	border: 1px solid #ddd;
+	border-radius: 1.0rem;
+	font-size: 1.6rem;
+	color: #333;
+}
+
+.diqu ul li {
+	margin-right: 0.5rem;
+}
+
+.diqu ul li:last-child {
+	margin-right: 0;
+	color: #FFF;
+	background: #1abc9c;
+}
+
+
+/*底线部分*/
+
+.di {
+	width: 100%;
+	height: 4.5rem;
+	background: #efeff4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1.2rem;
+	color: #999999;
+}
+
+.di ul {
+	width: 98%;
+	margin: 0 auto;
+}
+
+.left_line {
+	display: block;
+	width: 5.5rem;
+	height: 0.16rem;
+	background: #ddd;
+	margin: auto 0.5rem;
+}
+
+.diwords {
+	font-size: 2.0rem;
+}
+
+
+/*底部部分*/
+
+footer {
+	height: 4.9rem;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
+.last ul {
+	width: 100%;
+	height: 4.9rem;
+	display: flex;
+	display: -webkit-flex;
+	padding: 0 0.5rem;
+	align-items: center;
+	background-color: #fff;
+}
+
+.last li {
+	float: left;
+	flex: 1;
+	-webkit-flex: 1;
+	margin: 1.0rem;
+	text-align: center;
+}
+
+.last i {
+	color: #c0c0c0;
+	font-size: 28px;
+}
+
+.last li figcaption {
+	height: 1.0rem;
+	line-height: 1.0rem;
+	font-size: 2.0rem;
+	color: #666666;
+	margin-top: 0.5rem;
+}
+
+#active {
+	color: #1abc9c;
+}
